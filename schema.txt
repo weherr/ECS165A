@@ -1,0 +1,4 @@
+class	(CID, Term, subj, crse, sec, units)                                   key: cid, term
+meeting	(cid, term, instructor, type, days, timestart, timeend, build, room)  key: cid, term, instructor, type, days, timestart
+meetingStudent(sid, cid, term, seat, unitsTaken grade, gradeval)              key: cid, term, sid
+student	(sid, prefname, last, level, class, OldMajor, major, email)           key: sid
